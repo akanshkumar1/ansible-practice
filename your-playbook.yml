@@ -1,0 +1,7 @@
+- name: Example Playbook
+  hosts: localhost
+  tasks:
+    - name: Ensure the latest version of `curl` is installed
+      apt:
+        name: curl
+        state: latest
